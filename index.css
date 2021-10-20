@@ -43,28 +43,6 @@
     gap: 2rem;
 
 }
-
-/*.selection2{*/
-/*    padding-left: 2rem;*/
-/*}*/
-/*.selection3{*/
-/*    padding-left: 2rem;*/
-
-/*}*/
-/*.selection4{*/
-/*    padding-left: 2rem;*/
-
-/*}*/
-/*.selection5{*/
-/*    padding-left: 2rem;*/
-
-/*}*/
-/*.selection6{*/
-/*    padding-left: 2rem;*/
-/*}*/
-/*.selection7{*/
-/*    padding-left: 2rem;*/
-/*}*/
 .website{
     display: grid;
     grid-template-columns: repeat(4,1fr);
