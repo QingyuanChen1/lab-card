@@ -244,14 +244,30 @@
 }
 
 .bottom{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: url("img/water.jpg");
     height: 2rem;
     margin-top: 1rem;
 }
-.bottom p{
+.copyright{
+    font-weight: bold;
+    align-items: start;
+    line-height: 3px;
+}
+
+.socialmedia img{
+    width: 2rem;
+    height: 2rem;
+}
+.socialmedia p{
+    font-weight: bold;
+    float:left;
+    margin: auto;
     padding: 5px;
-    text-align: center;
+    align-items: center;
+
 }
 @media only screen and (max-width: 1300px) {
     .website{
@@ -265,7 +281,6 @@
         width: 200px;
         height: 100%;
         flex-direction: column;
-
     }
 }
 @media only screen and (max-width: 800px) {
